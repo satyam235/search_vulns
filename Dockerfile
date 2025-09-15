@@ -31,7 +31,7 @@ ENV LANGUAGE=en_US:en
 ENV LC_ALL=en_US.UTF-8
 
 # Clone repo and patch install.sh to remove 'sudo'
-RUN git clone --quiet --depth 1 https://github.com/ra1nb0rn/search_vulns.git . && \
+RUN git clone --quiet --depth 1 https://github.com/satyam235/search_vulns.git . && \
     ls -la && \
     chmod +x install.sh && \
     sed -i 's/sudo //g' install.sh && \
