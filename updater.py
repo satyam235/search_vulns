@@ -17,7 +17,7 @@ from search_vulns import MODULE_DIRECTORY, PROJECT_DIR, get_modules
 UPDATE_MODULES = None
 UPDATE_LOGS_DIR = os.path.join(PROJECT_DIR, "update_logs")
 VERSION_FILE = os.path.join(PROJECT_DIR, "version.txt")
-LATEST_RELEASE_URL = "https://github.com/ra1nb0rn/search_vulns/releases/latest/"
+LATEST_RELEASE_URL = "https://github.com/satyam235/search_vulns/releases/latest/"
 PRODUCT_DB_ARTIFACT_URL = LATEST_RELEASE_URL + "download/productdb.db3"
 VULNDB_ARTIFACT_URL = LATEST_RELEASE_URL + "download/vulndb.db3"
 MARIADB_CONVERT_SCRIPT = os.path.join(

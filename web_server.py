@@ -558,7 +558,7 @@ if config["RECAPTCHA_AND_API"]["ENABLED"]:
 
 if __name__ == "__main__":
     print("[+] Starting webserver")
-    app.run()
+    app.run(host="0.0.0.0",port="5000")
 
     # close DB pools if any exist
     for pool in get_connection_pools().values():
